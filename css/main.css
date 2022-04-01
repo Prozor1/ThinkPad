@@ -22,7 +22,7 @@ a {
 	border: 1px solid #000;
 	font-size: 35px;
 	width: 100%;
-	border-collapse: collapse;
+	/* border-collapse: collapse; */
 }
 
 .table th{
