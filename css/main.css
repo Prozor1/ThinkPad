@@ -2,10 +2,14 @@ blockquote {
 	font-size: 20px;
 }
 
-p{
+p {
 	font-size: 25px;
 }
 
-.list{
+.list {
+	font-size: 25px;
+}
+
+a {
 	font-size: 25px;
 }
