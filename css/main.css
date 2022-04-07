@@ -18,11 +18,19 @@ a {
 	font-size: 25px;
 }
 
+body{
+	background-color: rgb(211, 190, 190);
+}
+
+.body{
+	background-color: rgb(209, 190, 190);
+}
+
 .table {
 	/* border: 1px solid #000; */
 	font-size: 35px;
 	width: 100%;
-																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																									border-collapse: separate;
+												border-collapse: separate;
 	border-spacing: 5px;
 	border-radius: 30px;
 	background: rgb(160, 163, 172);
@@ -54,11 +62,26 @@ a {
 	text-align: center;
 }
 
-td{
+.td{
 	background: rgb(61, 172, 165);
 	padding: 20px;;
 }
 
-link{
-	
+.link{
+text-align: center;
+}
+
+.th{
+background-color: rgb(140, 223, 140);
+
+}
+
+.connect{
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.button{
+	padding: 25px;
+	text-align: center;
 }
