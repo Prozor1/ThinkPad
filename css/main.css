@@ -85,3 +85,17 @@ background-color: rgb(140, 223, 140);
 	padding: 25px;
 	text-align: center;
 }
+
+.abbr{
+   padding: 30px;
+   font-size: 27px;
+}
+
+meter{
+   font-size: 40px;
+}
+
+.semantik{
+   text-align: left;
+}
+
