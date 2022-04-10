@@ -87,7 +87,26 @@ body {
 	text-align: center;
 }
 
+<<<<<<< HEAD
 .hed {
+=======
+<<<<<<< HEAD
+.abbr{
+   padding: 30px;
+   font-size: 27px;
+}
+
+meter{
+   font-size: 40px;
+}
+
+.semantik{
+   text-align: left;
+}
+
+=======
+.hed{
+>>>>>>> e64248bba226212dca626a5810ecb173e3c1e22b
 	background: rgb(227, 75, 75);
 	
 }
@@ -95,6 +114,7 @@ body {
 .meter {
 	font-size: 90px;
 }
+<<<<<<< HEAD
 
 .form{
 	width: 500px;
@@ -129,3 +149,6 @@ body {
 .field{
 	margin-bottom: 10px;
 }
+=======
+>>>>>>> 2777b72585cfcfc04093d01b7ac052bb676e9749
+>>>>>>> e64248bba226212dca626a5810ecb173e3c1e22b
