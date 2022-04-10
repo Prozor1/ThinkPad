@@ -18,11 +18,11 @@ a {
 	font-size: 25px;
 }
 
-body{
+body {
 	background-color: rgb(211, 190, 190);
 }
 
-.body{
+.body {
 	background-color: rgb(209, 190, 190);
 }
 
@@ -30,7 +30,7 @@ body{
 	/* border: 1px solid #000; */
 	font-size: 35px;
 	width: 100%;
-												border-collapse: separate;
+	border-collapse: separate;
 	border-spacing: 5px;
 	border-radius: 30px;
 	background: rgb(160, 163, 172);
@@ -62,35 +62,70 @@ body{
 	text-align: center;
 }
 
-.td{
+.td {
 	background: rgb(61, 172, 165);
-	padding: 20px;;
+	padding: 20px;
+	;
 }
 
-.link{
-text-align: center;
+.link {
+	text-align: center;
 }
 
-.th{
-background-color: rgb(140, 223, 140);
+.th {
+	background-color: rgb(140, 223, 140);
 
 }
 
-.connect{
+.connect {
 	text-align: center;
 	padding-bottom: 10px;
 }
 
-.button{
+.button {
 	padding: 25px;
 	text-align: center;
 }
 
-.hed{
+.hed {
 	background: rgb(227, 75, 75);
-																																																																																																																																																																																																																																																																																																																																																																																						ddwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																										
+	
 }
 
-.meter{
+.meter {
 	font-size: 90px;
+}
+
+.form{
+	width: 500px;
+	padding: 20px;
+	margin: auto;
+	background-color: #fff;
+	
+}
+
+.form-group{
+	margin-bottom: 15px;
+	
+}
+
+.form-input{
+	display: block;
+	padding: 5px;
+	border: 1px solid #000
+	font-family: Arial, sans-serif;
+	font-size: 15;
+}
+
+.text-area{
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+	font-family: Arial,
+	sans-serif;
+	font-size: 15px;
+}
+
+.field{
+	margin-bottom: 10px;
 }
