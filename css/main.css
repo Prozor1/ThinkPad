@@ -88,63 +88,63 @@ body {
 }
 
 
+
+
+.abbr {
+	padding: 30px;
+	font-size: 27px;
+}
+
+meter {
+	font-size: 40px;
+}
+
+.semantik {
+	text-align: left;
+}
+
+
 .hed {
-=======
-
-.abbr{
-   padding: 30px;
-   font-size: 27px;
-}
-
-meter{
-   font-size: 40px;
-}
-
-.semantik{
-   text-align: left;
-}
-
-=======
-.hed{
 	background: rgb(227, 75, 75);
-	
+
 }
 
 .meter {
 	font-size: 90px;
 }
-<<<<<<< HEAD
 
-.form{
+
+.form {
 	width: 500px;
 	padding: 20px;
 	margin: auto;
 	background-color: #fff;
-	
+
 }
 
-.form-group{
+.form-group {
 	margin-bottom: 15px;
-	
+
 }
 
-.form-input{
+.form-input {
 	display: block;
 	padding: 5px;
-	border: 1px solid #000
-	font-family: Arial, sans-serif;
+	border: 1px solid #000;
+	font-family: serif;
+	Arial,
+	sans-serif;
 	font-size: 15;
 }
 
-.text-area{
+.text-area {
 	width: 200px;
 	height: 200px;
 	padding: 10px;
-	font-family: Arial,
-	sans-serif;
+	font-family: Arial, sans-serif;
 	font-size: 15px;
 }
 
-.field{
+.field {
 	margin-bottom: 10px;
 }
