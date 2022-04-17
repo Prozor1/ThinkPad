@@ -1,40 +1,40 @@
 blockquote {
-	font-size: 20px;
+   font-size: 20px;
 }
 
 p {
-	font-size: 25px;
+   font-size: 25px;
 }
 
 h1 {
-	text-align: center;
+   text-align: center;
 }
 
 .list {
-	font-size: 25px;
+   font-size: 25px;
 }
 
 a {
-	font-size: 25px;
+   font-size: 25px;
 }
 
 body {
-	background-color: rgb(211, 190, 190);
+   background-color: rgb(211, 190, 190);
 }
 
 .body {
-	background-color: rgb(209, 190, 190);
+   background-color: rgb(209, 190, 190);
 }
 
 .table {
-	/* border: 1px solid #000; */
-	font-size: 35px;
-	width: 100%;
-	border-collapse: separate;
-	border-spacing: 5px;
-	border-radius: 30px;
-	background: rgb(160, 163, 172);
-	border: 16px solid #ece9e0;
+   /* border: 1px solid #000; */
+   font-size: 35px;
+   width: 100%;
+   border-collapse: separate;
+   border-spacing: 5px;
+   border-radius: 30px;
+   background: rgb(160, 163, 172);
+   border: 16px solid #ece9e0;
 
 }
 
@@ -49,44 +49,45 @@ body {
 } */
 
 .table td {
-	/* border: 1px solid #000; */
-	padding: 20px;
-	background: rgb(61, 172, 165);
+   /* border: 1px solid #000; */
+   padding: 20px;
+   background: rgb(61, 172, 165);
 }
 
 .table tfoot td {
-	text-align: right;
+   text-align: right;
 }
 
 .column {
-	text-align: center;
+   text-align: center;
 }
 
 .td {
-	background: rgb(61, 172, 165);
-	padding: 20px;
-	;
+   background: rgb(61, 172, 165);
+   padding: 20px;
+   ;
 }
 
 .link {
-	text-align: center;
+   text-align: center;
 }
 
 .th {
-	background-color: rgb(140, 223, 140);
+   background-color: rgb(140, 223, 140);
 
 }
 
 .connect {
-	text-align: center;
-	padding-bottom: 10px;
+   text-align: center;
+   padding-bottom: 10px;
 }
 
 .button {
-	padding: 25px;
-	text-align: center;
+   padding: 25px;
+   text-align: center;
 }
 
+<<<<<<< HEAD
 
 
 
@@ -148,3 +149,62 @@ meter {
 .field {
 	margin-bottom: 10px;
 }
+=======
+<<<<<<< HEAD .hed {
+   =======<<<<<<< HEAD .abbr {
+      padding: 30px;
+      font-size: 27px;
+   }
+
+   meter {
+      font-size: 40px;
+   }
+
+   .semantik {
+      text-align: left;
+   }
+
+   =======.hed {
+      >>>>>>>e64248bba226212dca626a5810ecb173e3c1e22b background: rgb(227, 75, 75);
+
+   }
+
+   .meter {
+      font-size: 90px;
+   }
+
+   <<<<<<< HEAD .form {
+      width: 500px;
+      padding: 20px;
+      margin: auto;
+      background-color: #fff;
+
+   }
+
+   .form-group {
+      margin-bottom: 15px;
+
+   }
+
+   .form-input {
+      display: block;
+      padding: 5px;
+      border: 1px solid #000 font-family: Arial, sans-serif;
+      font-size: 15;
+   }
+
+   .text-area {
+      width: 200px;
+      height: 200px;
+      padding: 10px;
+      font-family: Arial,
+         sans-serif;
+      font-size: 15px;
+   }
+
+   .field {
+      margin-bottom: 10px;
+   }
+
+   =======>>>>>>>2777b72585cfcfc04093d01b7ac052bb676e9749>>>>>>>e64248bba226212dca626a5810ecb173e3c1e22b
+>>>>>>> 85e7b13bfc8864428e6c8e01dca0cd8807e3287e
