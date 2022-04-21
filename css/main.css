@@ -1,40 +1,40 @@
 blockquote {
-   font-size: 20px;
+	font-size: 20px;
 }
 
 p {
-   font-size: 25px;
+	font-size: 25px;
 }
 
 h1 {
-   text-align: center;
+	text-align: center;
 }
 
 .list {
-   font-size: 25px;
+	font-size: 25px;
 }
 
 a {
-   font-size: 25px;
+	font-size: 25px;
 }
 
 body {
-   background-color: rgb(211, 190, 190);
+	background-color: rgb(211, 190, 190);
+	background-image: url(../img/pattern.png);
+	background-size: 100px 1 00px;
 }
 
-.body {
-   background-color: rgb(209, 190, 190);
-}
+
 
 .table {
-   /* border: 1px solid #000; */
-   font-size: 35px;
-   width: 100%;
-   border-collapse: separate;
-   border-spacing: 5px;
-   border-radius: 30px;
-   background: rgb(160, 163, 172);
-   border: 16px solid #ece9e0;
+	/* border: 1px solid #000; */
+	font-size: 35px;
+	width: 100%;
+	border-collapse: separate;
+	border-spacing: 5px;
+	border-radius: 30px;
+	background: rgb(160, 163, 172);
+	border: 16px solid #ece9e0;
 
 }
 
@@ -49,42 +49,42 @@ body {
 } */
 
 .table td {
-   /* border: 1px solid #000; */
-   padding: 20px;
-   background: rgb(61, 172, 165);
+	/* border: 1px solid #000; */
+	padding: 20px;
+	background: rgb(61, 172, 165);
 }
 
 .table tfoot td {
-   text-align: right;
+	text-align: right;
 }
 
 .column {
-   text-align: center;
+	text-align: center;
 }
 
 .td {
-   background: rgb(61, 172, 165);
-   padding: 20px;
-   ;
+	background: rgb(61, 172, 165);
+	padding: 20px;
+	;
 }
 
 .link {
-   text-align: center;
+	text-align: center;
 }
 
 .th {
-   background-color: rgb(140, 223, 140);
+	background-color: rgb(140, 223, 140);
 
 }
 
 .connect {
-   text-align: center;
-   padding-bottom: 10px;
+	text-align: center;
+	padding-bottom: 10px;
 }
 
 .button {
-   padding: 25px;
-   text-align: center;
+	padding: 25px;
+	text-align: center;
 }
 
 
@@ -130,10 +130,8 @@ meter {
 	display: block;
 	padding: 5px;
 	border: 1px solid #000;
-	font-family: serif;
-	Arial,
-	sans-serif;
-	font-size: 15;
+	font-family: Arial, sans-serif;
+	font-size: 15px;
 }
 
 .text-area {
@@ -147,76 +145,102 @@ meter {
 .field {
 	margin-bottom: 10px;
 }
+
 .abbr {
-      padding: 30px;
-      font-size: 27px;
-   }
+	padding: 30px;
+	font-size: 27px;
+}
 
-   meter {
-      font-size: 40px;
-   }
+meter {
+	font-size: 40px;
+}
 
-   .semantik {
-      text-align: left;
-   }
+.semantik {
+	text-align: left;
+}
 
 .hed {
-     background: rgb(227, 75, 75);
+	background: rgb(227, 75, 75);
 
-   }
+}
 
-   .meter {
-      font-size: 90px;
-   }
+.meter {
+	font-size: 90px;
+}
 
- .form {
-      width: 500px;
-      padding: 20px;
-      margin: auto;
-      background-color: #fff;
+.form {
+	width: 500px;
+	padding: 20px;
+	margin: auto;
+	background-color: #fff;
 
-   }
+}
 
-   .form-group {
-      margin-bottom: 15px;
+.form-group {
+	margin-bottom: 15px;
 
-   }
+}
 
-   .form-input {
-      display: block;
-      padding: 5px;
-      border: 1px solid #000 font-family: Arial, sans-serif;
-      font-size: 15;
-   }
+.form-input {
+	display: block;
+	padding: 5px;
+	border: 1px solid #000;
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+}
 
-   .text-area {
-      width: 200px;
-      height: 200px;
-      padding: 10px;
-      font-family: Arial,
-         sans-serif;
-      font-size: 15px;
-   }
+.text-area {
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+	font-family: Arial,
+		sans-serif;
+	font-size: 15px;
+}
 
-   .field {
-      margin-bottom: 10px;
-   }
+.field {
+	margin-bottom: 10px;
+}
 
-	.text-red{
-		color: red;
-		font-weight: 700;
-		font-style: italic;
-		margin: 10px;
-		display: inline-block;
-		width: 160px;
-		height: 30px; 
-	}
+.text-red {
+	color: red;
+	font-weight: 700;
+	font-style: italic;
+	margin: 10px;
+	display: inline-block;
+	width: 160px;
+	height: 30px;
+}
 
-	
 
-	.page{
-		margin: auto;
-		width: 900px;
-	}
 
-	
+.page {
+	margin: auto;
+	width: 900px;
+}
+
+/* Post */
+.post {
+	width: 900px;
+	height: 400px;
+	margin: auto;
+	border: 1px solid #000;
+	padding: 15px 25px;
+	background-color: #fff;
+	background-image: url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.post-title {
+	margin: 0 0 15px 0;
+}
+
+.post-text p {
+	margin: 0 0 10px 0;
+}
+
+.post-text {
+	color: #fff
+}
