@@ -231,6 +231,7 @@ meter {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	background:#fff url("../img/") no-repeat center;
 }
 
 .post-title {
