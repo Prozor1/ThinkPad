@@ -224,14 +224,11 @@ meter {
 	width: 900px;
 	height: 400px;
 	margin: auto;
-	border: 1px solid #000;
+	border: 1px solid #fff;
 	padding: 15px 25px;
-	background-color: #fff;
-	background-image: url(../img/bg.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	background:#fff url("../img/bg.jpg");
+	
+	background:#fff url("../img/bg.jpg") no-repeat center;
+   background-size: cover;
 }
 
 .post-title {
@@ -244,4 +241,18 @@ meter {
 
 .post-text {
 	color: #fff
+}
+
+/* Gradient */
+
+.gradient{
+   width: 952px;
+   height: 300px;
+   margin: 20px auto;
+   text-align: center;
+   /* background-image: linear-gradient(to right, #fff 20%, #333 20%, #333 40%, #fff 40%, #fff 60%, #333 60%, #333 80%, #fff 80%); */
+   
+
+   background-image: radial-gradient(circle, #fff, #333);
+
 }
