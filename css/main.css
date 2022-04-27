@@ -6,8 +6,12 @@ p {
 	font-size: 25px;
 }
 
-h1 {
+.title {
 	text-align: center;
+	text-transform: uppercase;
+
+	letter-spacing: 4px;
+	text-decoration: dotted underline #9b1414;
 }
 
 .list {
@@ -117,10 +121,12 @@ body {
 }
 
 .biton:hover {
-	background-color: #af4c4c;
+	background-color: rgb(8, 93, 6);
 	/* Green */
 	color: white;
 	cursor: pointer;
+	font-weight: 700;
+	outline: 5px solid #9b1414;
 }
 
 
@@ -172,8 +178,10 @@ meter {
 	font-size: 15px;
 }
 
-.form-input:focus{
-background-color: rgb(179, 50, 54);
+.form-input:focus {
+	background-color: rgb(167, 177, 184);
+	/* border: 5px solid rgb(197, 82, 82); */
+	outline: 5px solid #4CAF50;
 }
 
 .text-area {
@@ -235,9 +243,16 @@ meter {
 	width: 200px;
 	height: 200px;
 	padding: 10px;
-	font-family: Arial,
-		sans-serif;
-	font-size: 15px;
+	/* font-family: Arial, sans-serif;
+	font-size: 15px; */
+	outline: 5px solid #4f0b9e;
+	outline-offset: 2px;
+	outline-style: dotted;
+	font: bold italic 15px Arial;
+}
+
+.text-area:focus {
+	outline: 0;
 }
 
 .field {
@@ -297,4 +312,16 @@ meter {
 
 	background-image: radial-gradient(circle, #fff, #333);
 
+}
+
+
+.form-filset {
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-top: 0ch;
+	margin-bottom: 20px;
+}
+
+.form-title {
+	margin: 0 0 15px;
 }
