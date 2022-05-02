@@ -106,6 +106,8 @@ body {
 	text-align: center;
 
 	background-repeat: no-repeat;
+
+
 }
 
 .biton {
@@ -119,6 +121,7 @@ body {
 	text-decoration: none;
 	display: inline-block;
 	font-size: 18px;
+	transition: all 0.3s linear;
 }
 
 .biton:hover {
@@ -127,7 +130,7 @@ body {
 	color: white;
 	cursor: pointer;
 	font-weight: 700;
-	outline: 5px solid #9b1414;
+	/* outline: 5px solid #9b1414; */
 }
 
 
@@ -242,7 +245,7 @@ meter {
 
 .text-area {
 	width: 200px;
-	height: 200px;
+	min-height: 150px;
 	padding: 10px;
 	/* font-family: Arial, sans-serif;
 	font-size: 15px; */
@@ -250,6 +253,7 @@ meter {
 	outline-offset: 2px;
 	outline-style: dotted;
 	font: bold italic 15px Arial;
+	resize: vertical;
 }
 
 .text-area:focus {
@@ -351,5 +355,3 @@ meter {
 	top: -10px;
 	right: -10px;
 }
-
-
