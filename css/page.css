@@ -7,10 +7,36 @@ body {
 	background: url("../img/bgg.png")
 }
 
-.page {
-	width: 1200px;
-	margin: 20px auto;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
 }
+
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+.page {
+	width: 1000px;
+	margin: 20px auto;
+	background-color: #fff;
+}
+
+.container {
+	display: flex;
+}
+
+
+
+
 
 /* Head */
 .header {
@@ -61,13 +87,25 @@ body {
 }
 
 .content {
-	padding: 20px;
+	padding: 800px;
+	padding: 0 20px;
 }
 
+.img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+
 .content-title {
-	margin: 0 0 15px;
+	/* margin: 0 0 15px; */
 	font-size: 24px;
 	color: #434141;
+	margin-top: 0;
+	padding-top: 0px;
+	/* padding: 11px; */
 }
 
 .read_more {
@@ -96,18 +134,28 @@ body {
 	color: inherit;
 }
 
-.article-title a:hover{
+.article-title a:hover {
 	text-decoration: underline;
 }
 
 .article-date {
+	display: block;
 	font-size: 13px;
 	color: #363535;
 }
 
+
+/* sidebar */
+
+.sidebar {
+	width: 300px;
+	background-color: #eee;
+	padding: 10px;
+}
+
 /* footer */
 
-.footer{
+.footer {
 	padding: 20px;
 	background-color: rgb(8, 8, 8);
 	text-align: center;
