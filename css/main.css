@@ -6,8 +6,12 @@ p {
 	font-size: 25px;
 }
 
-h1 {
+.title {
 	text-align: center;
+	text-transform: uppercase;
+
+	letter-spacing: 4px;
+	text-decoration: dotted underline #9b1414;
 }
 
 .list {
@@ -19,9 +23,10 @@ a {
 }
 
 body {
-	background-color: rgb(211, 190, 190);
+	margin: 0;
+	/* background-color: rgb(211, 190, 190);
 	background-image: url(../img/pattern.png);
-	background-size: 100px 1 00px;
+	background-size: 100px 1 00px; */
 }
 
 
@@ -101,6 +106,8 @@ body {
 	text-align: center;
 
 	background-repeat: no-repeat;
+
+
 }
 
 .biton {
@@ -114,13 +121,16 @@ body {
 	text-decoration: none;
 	display: inline-block;
 	font-size: 18px;
+	transition: all 0.3s linear;
 }
 
 .biton:hover {
-	background-color: #af4c4c;
+	background-color: rgb(8, 93, 6);
 	/* Green */
 	color: white;
 	cursor: pointer;
+	font-weight: 700;
+	/* outline: 5px solid #9b1414; */
 }
 
 
@@ -172,8 +182,10 @@ meter {
 	font-size: 15px;
 }
 
-.form-input:focus{
-background-color: rgb(179, 50, 54);
+.form-input:focus {
+	background-color: rgb(167, 177, 184);
+	/* border: 5px solid rgb(197, 82, 82); */
+	outline: 5px solid #4CAF50;
 }
 
 .text-area {
@@ -233,11 +245,19 @@ meter {
 
 .text-area {
 	width: 200px;
-	height: 200px;
+	min-height: 150px;
 	padding: 10px;
-	font-family: Arial,
-		sans-serif;
-	font-size: 15px;
+	/* font-family: Arial, sans-serif;
+	font-size: 15px; */
+	outline: 5px solid #4f0b9e;
+	outline-offset: 2px;
+	outline-style: dotted;
+	font: bold italic 15px Arial;
+	resize: vertical;
+}
+
+.text-area:focus {
+	outline: 0;
 }
 
 .field {
@@ -297,4 +317,41 @@ meter {
 
 	background-image: radial-gradient(circle, #fff, #333);
 
+}
+
+
+.form-filset {
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-top: 0ch;
+	margin-bottom: 20px;
+}
+
+.form-title {
+	margin: 0 0 15px;
+}
+
+/* Square */
+
+.modal {
+	width: 500px;
+	height: 300px;
+	margin: 20px auto;
+	padding: 15px;
+	position: relative;
+	background-color: #eee;
+}
+
+.mod-title {
+	margin: 0;
+}
+
+.square {
+	width: 50px;
+	height: 50px;
+	background-color: rgb(17, 17, 17);
+	margin: 0;
+	position: absolute;
+	top: -10px;
+	right: -10px;
 }
