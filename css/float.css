@@ -39,6 +39,14 @@ body {
 } */
 
 
+.img {
+	visibility: hidden;
+}
+
+.text:hover .img {
+	visibility: visible;
+}
+
 .main {
 	/* float: left; */
 	/* width: 70%; */
